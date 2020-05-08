@@ -39,7 +39,7 @@ const CreateEmpolyee = ({navigation,route})=>{
 	const [enableShift,setEnableShift] =useState(false)
 
 	const submitData=()=>{
-		fetch("https://git.heroku.com/empolyee-d.git/send-data",{
+		fetch("https://empolyee-d.herokuapp.com/send-data",{
 			method:"post",
 			headers:{
 				'Content-Type':'application/json'
