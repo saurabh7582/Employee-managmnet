@@ -39,7 +39,7 @@ const CreateEmpolyee = ({navigation,route})=>{
 	const [enableShift,setEnableShift] =useState(false)
 
 	const submitData=()=>{
-		fetch("https://empolyee-d.herokuapp.com/send-data",{
+		fetch("https://employee-s.herokuapp.com/send-data",{
 			method:"post",
 			headers:{
 				'Content-Type':'application/json'
@@ -64,7 +64,7 @@ const CreateEmpolyee = ({navigation,route})=>{
 	}
 
 	const UpDate=()=>{
-		fetch("http://1e6ae382.ngrok.io/update",{
+		fetch("https://employee-s.herokuapp.com/update",{
 			method:"post",
 			headers:{
 				'Content-Type':'application/json'

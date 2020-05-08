@@ -9,7 +9,7 @@ const Home=(props)=> {
 		const [lodaing,setloading]=useState(true)
 
 		const fetchData= ()=>{
-			fetch( " https://empolyee-d.herokuapp.com/")
+			fetch("https://employee-s.herokuapp.com/")
 			.then(res=>res.json())
 			.then(data=>{
 				setdata(data)
