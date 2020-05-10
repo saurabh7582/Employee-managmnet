@@ -12,7 +12,7 @@ const Profile = (props)=>{
 
     
     const del=()=>{
-        fetch("https://employee-s.herokuapp.com/delete ",{
+        fetch("https://employee-ss.herokuapp.com/delete ",{
             method:"post",
             headers:{
 				'Content-Type':'application/json'
