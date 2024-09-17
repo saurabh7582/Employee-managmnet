@@ -6,7 +6,6 @@ import * as Permissions from 'expo-permissions';
 import { NavigationContainer } from '@react-navigation/native';
 
 const CreateEmpolyee = ({navigation,route})=>{
-
 	// data to be edit
 	const editData=(type)=>{
 		if(route.params){
